@@ -11,9 +11,15 @@ links:
   - tipo: conicet
     nombre: "Perfil CONICET"
     url: "https://bicyt.conicet.gov.ar/fichas/p/facundo-aguilera"
+  - tipo: researchgate
+    nombre: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Facundo-Aguilera"
   - tipo: linkedin
     nombre: "Perfil LinkedIn"
-    url: "https://www.linkedin.com/in/facundoaguilera/"  
+    url: "https://www.linkedin.com/in/facundoaguilera/"
+  - tipo: cv
+    nombre: "CV"
+    url: "https://gea.ing.unrc.edu.ar/faguilera/uploads/cv_faguilera.pdf"
 ---
 Nació en San Luis, Provincia de San Luis, Argentina (1985)
 Recibió el título de Técnico Electrónico (2002) en el Colegio N° 4 Fray Luis Beltrán y el título Ingeniero Electrónico con Orientación en Sistemas Digitales (2009) en la Universidad Nacional de San Luis (UNSL).
