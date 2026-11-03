@@ -15,7 +15,7 @@
 <body>
   <a class="skip" href="#contenido">{{ i18n "skip" }}</a>
   <header class="top">
-    <a class="brand" href="{{ "/" | relLangURL }}"><img src="/img/logo-gea.svg" alt="GEA · Grupo de Electrónica Aplicada" height="52"></a>
+    <a class="brand" href="{{ "/" | relLangURL }}"><img src="/img/logo-gea.png" alt="GEA · Grupo de Electrónica Aplicada" height="52"></a>
     <nav aria-label="{{ i18n "nav_main" }}">
       {{ $cur := . }}
       {{ range site.Menus.main }}<a href="{{ .URL }}"{{ if or ($cur.IsMenuCurrent "main" .) ($cur.HasMenuCurrent "main" .) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}

@@ -15,7 +15,7 @@ other = "Líneas de trabajo"
 [btn_members]
 other = "Integrantes"
 [edit]
-other = "Editar esta página en GitHub"
+other = "Editar esta página"
 [interests]
 other = "Intereses"
 [ongoing]
@@ -27,7 +27,7 @@ other = "Todavía no hay publicaciones cargadas."
 [photo_of]
 other = "Foto de"
 [footer_org]
-other = "Grupo de Electrónica Aplicada · Facultad de Ingeniería · Universidad Nacional de Río Cuarto"
+other = "Grupo de Electrónica Aplicada · IITEMA · CONICET - Universidad Nacional de Río Cuarto"
 [date_fmt]
 other = "02/01/2006"
 [lang_label]

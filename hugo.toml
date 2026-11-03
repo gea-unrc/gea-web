@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   email = "gea@ing.unrc.edu.ar"          # TODO: verificar
-  repo = "https://github.com/ORGANIZACION/gea-web"   # TODO: reemplazar (activa "Editar esta página")
+  repo = "https://github.com/gea-unrc/gea-web"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -19,7 +19,7 @@ disableKinds = ["taxonomy", "term"]
   weight = 1
   contentDir = "content/es"
   [languages.es.params]
-    descripcion = "Grupo de Electrónica Aplicada, Facultad de Ingeniería, Universidad Nacional de Río Cuarto."
+    descripcion = "Grupo de Electrónica Aplicada, Instituto de Investigación en Tecnologías Energéticas y Materiales Avanzados (IITEMA), CONICET-Universidad Nacional de Río Cuarto."
     direccion = "Ruta Nacional 36, km 601 · X5804BYA Río Cuarto, Córdoba, Argentina"
     hero_tags = ["Máquinas eléctricas", "Electromovilidad", "Generación eólica", "Diagnóstico de fallas"]
     [languages.es.params.paths]
