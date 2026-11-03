@@ -33,14 +33,20 @@ disableKinds = ["taxonomy", "term"]
       id = "investigadores"
       nombre = "Investigadores"
     [[languages.es.params.roles]]
+      id = "docentes"
+      nombre = "Docentes"
+    [[languages.es.params.roles]]
       id = "posgrado"
       nombre = "Doctorandos y becarios"
     [[languages.es.params.roles]]
       id = "grado"
-      nombre = "Estudiantes y adscriptos"
+      nombre = "Alumnos de grado"
     [[languages.es.params.roles]]
       id = "egresados"
       nombre = "Ex integrantes"
+    [[languages.es.params.roles]]
+      id = "externos"
+      nombre = "Miembros externos"  
   [[languages.es.menus.main]]
     name = "Líneas"
     pageRef = "/lineas"
@@ -108,6 +114,9 @@ disableKinds = ["taxonomy", "term"]
       id = "investigadores"
       nombre = "Researchers"
     [[languages.en.params.roles]]
+      id = "docentes"
+      nombre = "Teachers"
+    [[languages.en.params.roles]]
       id = "posgrado"
       nombre = "PhD students and fellows"
     [[languages.en.params.roles]]
@@ -116,6 +125,9 @@ disableKinds = ["taxonomy", "term"]
     [[languages.en.params.roles]]
       id = "egresados"
       nombre = "Alumni"
+    [[languages.en.params.roles]]
+      id = "externos"
+      nombre = "External members"  
   [[languages.en.menus.main]]
     name = "Research"
     pageRef = "/research-lines"
