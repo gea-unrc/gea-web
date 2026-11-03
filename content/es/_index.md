@@ -11,3 +11,5 @@ El Grupo de Electrónica Aplicada (GEA) fue creado en 1988 en el ámbito del Dep
 Las actividades del GEA comprenden el desarrollo de proyectos de investigación, tesis de posgrado, trabajos finales de grado y proyectos de desarrollo tecnológico. Asimismo, trabaja en colaboración con empresas e instituciones, llevando adelante desarrollos tecnológicos y brindando servicios tecnológicos especializados.
 
 La **formación de recursos humanos** constituye uno de los pilares de sus actividades. A través de la dirección de tesis y trabajos académicos, la participación en proyectos de investigación y el dictado de cursos de especialización y actualización, el GEA contribuye a la formación de estudiantes de grado y posgrado, investigadores y profesionales vinculados con el ámbito industrial.
+
+El GEA desarrolla sus actividades en áreas vinculadas con la electrónica de potencia, las máquinas eléctricas, los sistemas de conversión y gestión de la energía, la electromovilidad, las microrredes eléctricas y las energías renovables, integrando investigación aplicada, modelado, simulación y desarrollo de prototipos experimentales.
