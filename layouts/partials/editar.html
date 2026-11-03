@@ -1,0 +1,3 @@
+{{- with site.Params.repo }}{{ if $.File }}
+<p class="editar"><a href="{{ . }}/edit/main/content/{{ $.Lang }}/{{ $.File.Path }}" rel="noopener">{{ i18n "edit" }}</a></p>
+{{ end }}{{ end }}

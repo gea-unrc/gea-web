@@ -1,0 +1,34 @@
+[skip]
+other = "Skip to content"
+[nav_main]
+other = "Main"
+[nav_secondary]
+other = "Secondary"
+[lines_title]
+other = "Research lines"
+[news_title]
+other = "Latest news"
+[news_all]
+other = "All news"
+[btn_lines]
+other = "Research lines"
+[btn_members]
+other = "Members"
+[edit]
+other = "Edit this page on GitHub"
+[interests]
+other = "Interests"
+[ongoing]
+other = "Ongoing"
+[finished]
+other = "Completed"
+[no_pubs]
+other = "No publications have been added yet."
+[photo_of]
+other = "Photo of"
+[footer_org]
+other = "Applied Electronics Group · Faculty of Engineering · National University of Río Cuarto"
+[date_fmt]
+other = "Jan 2, 2006"
+[lang_label]
+other = "Language"

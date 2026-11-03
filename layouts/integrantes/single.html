@@ -1,0 +1,14 @@
+{{ define "main" }}<article class="wrap narrow">
+  <div class="perfil">
+    {{ with .Params.foto }}<img src="{{ . }}" alt="{{ i18n "photo_of" }} {{ $.Title }}" width="140" height="140">{{ end }}
+    <div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.cargo }}<p class="cargo">{{ . }}</p>{{ end }}
+      {{ with .Params.email }}<p><a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+      {{ partial "links.html" . }}
+    </div>
+  </div>
+  {{ with .Params.intereses }}<p><strong>{{ i18n "interests" }}:</strong> {{ delimit . ", " }}</p>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+  {{ partial "editar.html" . }}
+</article>{{ end }}

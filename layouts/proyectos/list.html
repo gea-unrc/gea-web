@@ -1,0 +1,14 @@
+{{ define "main" }}<div class="wrap narrow">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+  {{ range (slice (dict "id" "activo" "n" (i18n "ongoing")) (dict "id" "finalizado" "n" (i18n "finished"))) }}
+    {{ $e := .id }}{{ $g := where $.Pages "Params.estado" $e }}
+    {{ if $g }}<h2>{{ .n }}</h2>
+      {{ range $g.ByWeight }}<article class="row">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="meta">{{ with .Params.periodo }}{{ . }}{{ end }}{{ with .Params.financiamiento }} · {{ . }}{{ end }}</p>
+        {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+      </article>{{ end }}
+    {{ end }}
+  {{ end }}
+</div>{{ end }}

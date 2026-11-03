@@ -1,0 +1,26 @@
+{{ define "main" }}<div class="wrap">
+  <h1>{{ .Title }}</h1>
+  <div class="prose narrow-text">{{ .Content }}</div>
+  {{ $all := .Pages }}
+  {{ range site.Params.roles }}
+    {{ $rol := .id }}
+    {{ $g := where $all "Params.rol" $rol }}
+    {{ if $g }}
+    <section class="grupo">
+      <h2>{{ .nombre }}</h2>
+      <div class="people">
+      {{ range $g.ByWeight }}
+        <article class="person">
+          {{ with .Params.foto }}<img src="{{ . }}" alt="" loading="lazy" width="96" height="96">{{ else }}<div class="avatar" aria-hidden="true">{{ substr .Title 0 1 }}</div>{{ end }}
+          <div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{ with .Params.cargo }}<p class="cargo">{{ . }}</p>{{ end }}
+            {{ partial "links.html" . }}
+          </div>
+        </article>
+      {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  {{ end }}
+</div>{{ end }}

@@ -1,0 +1,34 @@
+[skip]
+other = "Ir al contenido"
+[nav_main]
+other = "Principal"
+[nav_secondary]
+other = "Secundaria"
+[lines_title]
+other = "Líneas de trabajo"
+[news_title]
+other = "Últimas novedades"
+[news_all]
+other = "Ver todas las novedades"
+[btn_lines]
+other = "Líneas de trabajo"
+[btn_members]
+other = "Integrantes"
+[edit]
+other = "Editar esta página en GitHub"
+[interests]
+other = "Intereses"
+[ongoing]
+other = "En curso"
+[finished]
+other = "Finalizados"
+[no_pubs]
+other = "Todavía no hay publicaciones cargadas."
+[photo_of]
+other = "Foto de"
+[footer_org]
+other = "Grupo de Electrónica Aplicada · Facultad de Ingeniería · Universidad Nacional de Río Cuarto"
+[date_fmt]
+other = "02/01/2006"
+[lang_label]
+other = "Idioma"

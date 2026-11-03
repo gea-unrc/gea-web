@@ -1,0 +1,162 @@
+baseURL = "https://gea.ing.unrc.edu.ar/"
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = false
+title = "GEA · Grupo de Electrónica Aplicada"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  email = "gea@ing.unrc.edu.ar"          # TODO: verificar
+  repo = "https://github.com/ORGANIZACION/gea-web"   # TODO: reemplazar (activa "Editar esta página")
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# ---------------- Español ----------------
+[languages.es]
+  languageName = "Español"
+  languageCode = "es-AR"
+  weight = 1
+  contentDir = "content/es"
+  [languages.es.params]
+    descripcion = "Grupo de Electrónica Aplicada, Facultad de Ingeniería, Universidad Nacional de Río Cuarto."
+    direccion = "Ruta Nacional 36, km 601 · X5804BYA Río Cuarto, Córdoba, Argentina"
+    hero_tags = ["Máquinas eléctricas", "Electromovilidad", "Generación eólica", "Diagnóstico de fallas"]
+    [languages.es.params.paths]
+      lineas = "/lineas"
+      integrantes = "/integrantes"
+      novedades = "/novedades"
+    [[languages.es.params.roles]]
+      id = "direccion"
+      nombre = "Dirección"
+    [[languages.es.params.roles]]
+      id = "investigadores"
+      nombre = "Investigadores"
+    [[languages.es.params.roles]]
+      id = "posgrado"
+      nombre = "Doctorandos y becarios"
+    [[languages.es.params.roles]]
+      id = "grado"
+      nombre = "Estudiantes y adscriptos"
+    [[languages.es.params.roles]]
+      id = "egresados"
+      nombre = "Ex integrantes"
+  [[languages.es.menus.main]]
+    name = "Líneas"
+    pageRef = "/lineas"
+    weight = 10
+  [[languages.es.menus.main]]
+    name = "Integrantes"
+    pageRef = "/integrantes"
+    weight = 20
+  [[languages.es.menus.main]]
+    name = "Proyectos"
+    pageRef = "/proyectos"
+    weight = 30
+  [[languages.es.menus.main]]
+    name = "Publicaciones"
+    pageRef = "/publicaciones"
+    weight = 40
+  [[languages.es.menus.main]]
+    name = "Tesis"
+    pageRef = "/tesis"
+    weight = 50
+  [[languages.es.menus.main]]
+    name = "Becas"
+    pageRef = "/becas"
+    weight = 60
+  [[languages.es.menus.main]]
+    name = "Novedades"
+    pageRef = "/novedades"
+    weight = 70
+  [[languages.es.menus.main]]
+    name = "Contacto"
+    pageRef = "/contacto"
+    weight = 80
+  [[languages.es.menus.footer]]
+    name = "Docencia"
+    pageRef = "/docencia"
+    weight = 10
+  [[languages.es.menus.footer]]
+    name = "Galería"
+    pageRef = "/galeria"
+    weight = 20
+  [[languages.es.menus.footer]]
+    name = "Enlaces"
+    pageRef = "/enlaces"
+    weight = 30
+
+# ---------------- English ----------------
+[languages.en]
+  languageName = "English"
+  languageCode = "en"
+  weight = 2
+  contentDir = "content/en"
+  title = "GEA · Applied Electronics Group"
+  [languages.en.params]
+    descripcion = "Applied Electronics Group, Faculty of Engineering, National University of Río Cuarto."
+    direccion = "National Route 36, km 601 · X5804BYA Río Cuarto, Córdoba, Argentina"
+    hero_tags = ["Electrical machines", "Electromobility", "Wind power generation", "Fault diagnosis"]
+    [languages.en.params.paths]
+      lineas = "/research-lines"
+      integrantes = "/members"
+      novedades = "/news"
+    [[languages.en.params.roles]]
+      id = "direccion"
+      nombre = "Directors"
+    [[languages.en.params.roles]]
+      id = "investigadores"
+      nombre = "Researchers"
+    [[languages.en.params.roles]]
+      id = "posgrado"
+      nombre = "PhD students and fellows"
+    [[languages.en.params.roles]]
+      id = "grado"
+      nombre = "Undergraduate students"
+    [[languages.en.params.roles]]
+      id = "egresados"
+      nombre = "Alumni"
+  [[languages.en.menus.main]]
+    name = "Research"
+    pageRef = "/research-lines"
+    weight = 10
+  [[languages.en.menus.main]]
+    name = "Members"
+    pageRef = "/members"
+    weight = 20
+  [[languages.en.menus.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 30
+  [[languages.en.menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 40
+  [[languages.en.menus.main]]
+    name = "Theses"
+    pageRef = "/theses"
+    weight = 50
+  [[languages.en.menus.main]]
+    name = "Scholarships"
+    pageRef = "/scholarships"
+    weight = 60
+  [[languages.en.menus.main]]
+    name = "News"
+    pageRef = "/news"
+    weight = 70
+  [[languages.en.menus.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 80
+  [[languages.en.menus.footer]]
+    name = "Teaching"
+    pageRef = "/teaching"
+    weight = 10
+  [[languages.en.menus.footer]]
+    name = "Gallery"
+    pageRef = "/gallery"
+    weight = 20
+  [[languages.en.menus.footer]]
+    name = "Links"
+    pageRef = "/links"
+    weight = 30

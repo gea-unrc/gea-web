@@ -1,0 +1,11 @@
+{{ define "main" }}<div class="wrap narrow">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+  {{ range .Pages.ByWeight }}
+  <article class="row">
+    {{ if eq .Type "novedades" }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (i18n "date_fmt") }}</time>{{ end }}
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+  </article>
+  {{ end }}
+</div>{{ end }}

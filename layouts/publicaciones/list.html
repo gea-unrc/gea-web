@@ -1,0 +1,15 @@
+{{ define "main" }}<div class="wrap narrow">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+  {{ with site.Data.publicaciones }}
+    {{ $pubs := sort . "year" "desc" }}
+    {{ $.Store.Set "y" 0 }}
+    {{ range $pubs }}
+      {{ if ne .year ($.Store.Get "y") }}<h2>{{ .year }}</h2>{{ $.Store.Set "y" .year }}{{ end }}
+      <article class="pub">
+        <p class="t">{{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+        <p class="meta">{{ delimit .authors ", " }}{{ with .venue }} · <em>{{ . }}</em>{{ end }}</p>
+      </article>
+    {{ end }}
+  {{ else }}<p>{{ i18n "no_pubs" }}</p>{{ end }}
+</div>{{ end }}

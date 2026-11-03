@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $img := .Params.hero_imagen }}
+<section class="hero{{ if $img }} foto{{ end }}"{{ with $img }} style="background-image:linear-gradient(90deg,rgba(6,14,22,.92) 0%,rgba(6,14,22,.7) 55%,rgba(6,14,22,.45) 100%),url({{ . }})"{{ end }}>
+  {{ if not $img }}{{ partial "wave.html" . }}{{ end }}
+  <div class="wrap">
+    <div class="hero-text">
+      <h1>{{ .Params.titulo_hero }}</h1>
+      <p class="lead">{{ .Params.lead }}</p>
+      <ul class="tags">{{ range site.Params.hero_tags }}<li>{{ . }}</li>{{ end }}</ul>
+      <p><a class="btn" href="{{ (site.GetPage site.Params.paths.lineas).RelPermalink }}">{{ i18n "btn_lines" }}</a> <a class="btn ghost" href="{{ (site.GetPage site.Params.paths.integrantes).RelPermalink }}">{{ i18n "btn_members" }}</a></p>
+    </div>
+  </div>
+</section>
+<div class="wrap narrow prose intro">{{ .Content }}</div>
+<div class="wrap two">
+  <section>
+    <h2>{{ i18n "lines_title" }}</h2>
+    {{ range (where site.RegularPages "Type" "lineas").ByWeight }}
+      <article class="row"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p></article>
+    {{ end }}
+  </section>
+  <section>
+    <h2>{{ i18n "news_title" }}</h2>
+    {{ range first 4 (where site.RegularPages "Type" "novedades") }}
+      <article class="row"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (i18n "date_fmt") }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></article>
+    {{ end }}
+    <p><a href="{{ (site.GetPage site.Params.paths.novedades).RelPermalink }}">{{ i18n "news_all" }}</a></p>
+  </section>
+</div>
+{{ end }}

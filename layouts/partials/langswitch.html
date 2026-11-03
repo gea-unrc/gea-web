@@ -1,0 +1,12 @@
+<span class="lang" role="group" aria-label="{{ i18n "lang_label" }}">
+{{- $page := . -}}
+{{- range site.Languages }}
+  {{- $l := .Lang -}}
+  {{- if eq $l $page.Lang }}<span class="on" aria-current="true">{{ upper $l }}</span>
+  {{- else }}
+    {{- $url := cond (eq $l "es") "/" (printf "/%s/" $l) -}}
+    {{- range $page.AllTranslations }}{{ if eq .Lang $l }}{{ $url = .RelPermalink }}{{ end }}{{ end -}}
+    <a href="{{ $url }}" lang="{{ $l }}" hreflang="{{ $l }}" title="{{ .LanguageName }}">{{ upper $l }}</a>
+  {{- end }}
+{{- end }}
+</span>

@@ -1,0 +1,10 @@
+{{- with .Params.links }}
+<ul class="links">
+{{- range . }}{{ if .url }}
+  {{- $p := printf "partials/ico/%s.html" (.tipo | default "") }}
+  <li><a href="{{ .url }}" rel="noopener" target="_blank" title="{{ .nombre | default .tipo }}">
+  {{- if and .tipo (templates.Exists $p) }}{{ partial (printf "ico/%s.html" .tipo) }}<span class="sr">{{ .nombre | default .tipo }}</span>{{ else }}{{ .nombre }}{{ end -}}
+  </a></li>
+{{- end }}{{ end }}
+</ul>
+{{- end }}
