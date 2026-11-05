@@ -1,6 +1,8 @@
-{{ define "main" }}<article class="wrap narrow">
+{{ define "main" }}<article class="wrap{{ if ne .Params.ancho "completo" }} narrow{{ end }}{{ if eq .Params.ancho "completo" }} full{{ end }}">
   <h1>{{ .Title }}</h1>
   {{ if eq .Type "novedades" }}<p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (i18n "date_fmt") }}</time></p>{{ end }}
   <div class="prose">{{ .Content }}</div>
   {{ partial "editar.html" . }}
 </article>{{ end }}
+
+

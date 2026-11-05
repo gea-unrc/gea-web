@@ -1,0 +1,2 @@
+{{ $h := .Get "height" | default "700" }}
+<div class="embed"><iframe src="{{ .Get "url" }}" title="{{ .Get "title" }}" loading="lazy" style="height:{{ $h }}px" allowfullscreen></iframe></div>

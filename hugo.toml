@@ -9,6 +9,9 @@ disableKinds = ["taxonomy", "term"]
   email = "gea@ing.unrc.edu.ar"          # TODO: verificar
   repo = "https://github.com/gea-unrc/gea-web"
 
+[params.social]
+  instagram = "https://www.instagram.com/gea_unrc/"
+
 [markup.goldmark.renderer]
   unsafe = true
 
@@ -72,13 +75,17 @@ disableKinds = ["taxonomy", "term"]
     pageRef = "/becas"
     weight = 60
   [[languages.es.menus.main]]
+    name = "Microrred"
+    pageRef = "/microrred"
+    weight = 65
+  [[languages.es.menus.main]]
     name = "Novedades"
     pageRef = "/novedades"
     weight = 70
-  [[languages.es.menus.main]]
+  [[languages.es.menus.footer]]
     name = "Contacto"
     pageRef = "/contacto"
-    weight = 80
+    weight = 5
   [[languages.es.menus.footer]]
     name = "Docencia"
     pageRef = "/docencia"
@@ -153,13 +160,17 @@ disableKinds = ["taxonomy", "term"]
     pageRef = "/scholarships"
     weight = 60
   [[languages.en.menus.main]]
+    name = "Microgrid"
+    pageRef = "/microrred"
+    weight = 65
+  [[languages.en.menus.main]]
     name = "News"
     pageRef = "/news"
     weight = 70
-  [[languages.en.menus.main]]
+  [[languages.en.menus.footer]]
     name = "Contact"
     pageRef = "/contact"
-    weight = 80
+    weight = 5
   [[languages.en.menus.footer]]
     name = "Teaching"
     pageRef = "/teaching"

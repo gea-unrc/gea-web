@@ -98,6 +98,8 @@ time,.meta,.cargo{color:var(--muted);font-size:.92rem}
 .foot .iitema{display:block;margin:0 auto 1rem;height:auto;max-width:100%;width:206px}
 .fnav{display:flex;justify-content:center;flex-wrap:wrap;gap:.3rem 1.2rem;margin-bottom:.8rem}
 .fnav a{color:#d6e2ee}
+.social a{display:inline-block;line-height:0}
+.social svg{height:1.9rem;width:auto;display:block}
 
 @media(max-width:760px){
   .top{position:static}
@@ -136,4 +138,9 @@ time,.meta,.cargo{color:var(--muted);font-size:.92rem}
 .lang .on{background:#1d75b2;color:#fff}
 .top nav .lang a{color:#11202e}
 .top nav .lang a:hover{background:#e6edf2}
+
+/* cosas embebidas */
+.embed iframe{display:block;width:100%;border:1px solid var(--line);border-radius:4px;background:#fff}
+.wrap.full{max-width:80rem}
+.wrap.full .prose{max-width:none}
 
