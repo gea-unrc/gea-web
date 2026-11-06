@@ -1,7 +1,7 @@
 ---
 title: Home
 translationKey: home
-titulo_hero: "Power electronics for electric motors and electromobility"
+titulo_hero: "Applied Electronics Group"
 lead: "Technology development and transfer, applied research and human-resources training in power electronics, electrical machines and control. Faculty of Engineering, National University of Río Cuarto."
 hero_imagen: ""     # e.g. /img/hero.jpg (group photo in static/img/). Empty = animated PWM waveform.
 ---
