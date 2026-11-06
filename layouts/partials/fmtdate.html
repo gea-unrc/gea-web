@@ -1,0 +1,3 @@
+{{- $s := . -}}
+{{- if eq (len $s) 10 -}}{{ (time.AsTime $s).Format (i18n "date_fmt") }}
+{{- else -}}{{ (time.AsTime (printf "%s-01" $s)).Format (i18n "month_fmt") }}{{- end -}}

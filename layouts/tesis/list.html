@@ -1,0 +1,31 @@
+{{ define "main" }}<div class="wrap narrow">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+  {{ $all := site.Data.tesis }}
+  {{ $sep := printf " %s " (i18n "and") }}
+  {{ range (slice
+      (dict "n" "doctorado" "e" "ejecucion" "k" "doc_ej")
+      (dict "n" "doctorado" "e" "finalizada" "k" "doc_fin")
+      (dict "n" "maestria" "e" "ejecucion" "k" "mae_ej")
+      (dict "n" "maestria" "e" "finalizada" "k" "mae_fin")) }}
+    {{ $e := .e }}{{ $k := .k }}
+    {{ $g := where (where $all "nivel" .n) "estado" $e }}
+    {{ if $g }}
+    <h2>{{ i18n (printf "h_%s" $k) }}</h2>
+    <p class="meta">{{ i18n (printf "note_%s" $k) }}</p>
+    <ul class="tesis">
+    {{ range $g }}
+      <li><strong>{{ .autor }}.</strong> <em>{{ .titulo }}.</em>
+        {{ with .directores }}{{ i18n "dir" (len .) }}: {{ delimit . ", " $sep }}.{{ end }}
+        {{ with .codirectores }}{{ i18n "codir" (len .) }}: {{ delimit . ", " $sep }}.{{ end }}
+        {{ range .otros }}{{ i18n (printf "rol_%s" .rol) }}: {{ .nombre }}.{{ end }}
+        {{ with .institucion }}{{ i18n (printf "inst_%s" .) }}.{{ end }}
+        {{ with .inicio }}{{ if eq $e "ejecucion" }}{{ i18n "since" }}{{ else }}{{ i18n "start" }}{{ end }}: {{ partial "fmtdate.html" . }}.{{ end }}
+        {{ with .defensa }}{{ i18n "defense" }}: {{ partial "fmtdate.html" . }}.{{ end }}
+        {{ with .fin }}{{ i18n "end" }}: {{ partial "fmtdate.html" . }}.{{ end }}
+      </li>
+    {{ end }}
+    </ul>
+    {{ end }}
+  {{ end }}
+</div>{{ end }}

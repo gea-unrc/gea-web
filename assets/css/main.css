@@ -144,3 +144,6 @@ time,.meta,.cargo{color:var(--muted);font-size:.92rem}
 .wrap.full{max-width:80rem}
 .wrap.full .prose{max-width:none}
 
+/* Separacion entre items de la tesis */
+.tesis li{margin:.7rem 0}
+

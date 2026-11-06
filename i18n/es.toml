@@ -15,7 +15,7 @@ other = "Líneas de trabajo"
 [btn_members]
 other = "Integrantes"
 [edit]
-other = "Editar esta página"
+other = "Editar esta página en GitHub"
 [interests]
 other = "Intereses"
 [ongoing]
@@ -27,8 +27,58 @@ other = "Todavía no hay publicaciones cargadas."
 [photo_of]
 other = "Foto de"
 [footer_org]
-other = "Grupo de Electrónica Aplicada · IITEMA · CONICET - Universidad Nacional de Río Cuarto"
+other = "Grupo de Electrónica Aplicada · Facultad de Ingeniería · Universidad Nacional de Río Cuarto"
 [date_fmt]
 other = "02/01/2006"
 [lang_label]
 other = "Idioma"
+[and]
+other = "y"
+[dir]
+one = "Dirección"
+other = "Dirección"
+[codir]
+one = "Codirección"
+other = "Codirección"
+[rol_subdirector]
+other = "Subdirección"
+[rol_director_asistente]
+other = "Dirección asistente"
+[rol_asesor]
+other = "Asesor"
+[rol_consejero]
+other = "Consejero"
+[inst_unlp]
+other = "LEICI, Universidad Nacional de La Plata (Doctorado en Ingeniería)"
+[inst_uns]
+other = "Departamento de Ingeniería Eléctrica y Computadoras, Universidad Nacional del Sur (Doctorado en Control de Sistemas)"
+[inst_balseiro]
+other = "Instituto Balseiro, Universidad Nacional de Cuyo (Doctorado en Ciencias de la Ingeniería)"
+[inst_magister_cce]
+other = "Magíster en Ingeniería, mención «Control y Conversión de Energía»"
+[since]
+other = "Desde"
+[start]
+other = "Inicio"
+[defense]
+other = "Defensa"
+[end]
+other = "Finalización"
+[month_fmt]
+other = "01/2006"
+[h_doc_ej]
+other = "Tesis doctorales en ejecución"
+[h_doc_fin]
+other = "Tesis doctorales finalizadas"
+[h_mae_ej]
+other = "Tesis de maestría en ejecución"
+[h_mae_fin]
+other = "Tesis de maestría finalizadas"
+[note_doc_ej]
+other = "Doctorado en Ciencias de la Ingeniería, Universidad Nacional de Río Cuarto."
+[note_doc_fin]
+other = "Salvo indicación en contrario, Doctorado en Ciencias de la Ingeniería de la Facultad de Ingeniería, UNRC (aprobado por Res. 513/08 del Ministerio de Educación de la Nación)."
+[note_mae_ej]
+other = "Maestría en Ciencias de la Ingeniería, mención Ingeniería Eléctrica, Facultad de Ingeniería, UNRC."
+[note_mae_fin]
+other = "Maestría en Ciencias de la Ingeniería, mención Ingeniería Eléctrica, Facultad de Ingeniería, UNRC (acreditada por Res. 869/99 de la CONEAU)."

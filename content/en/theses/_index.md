@@ -5,4 +5,4 @@ translationKey: tesis
 cascade:
   type: tesis
 ---
-Undergraduate, master's and doctoral theses supervised at GEA.
+Postgraduate theses supervised at GEA. Titles are shown in their original language (Spanish).

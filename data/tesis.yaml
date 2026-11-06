@@ -1,0 +1,504 @@
+# Tesis del GEA. Una entrada por tesis; el orden dentro de cada grupo es el del archivo.
+# nivel: doctorado | maestria      estado: ejecucion | finalizada
+# directores / codirectores: listas de nombres. otros: rol = subdirector | director_asistente | asesor | consejero
+# institucion (opcional): unlp | uns | balseiro | magister_cce
+# fechas como texto ISO: "AAAA-MM" (solo mes) o "AAAA-MM-DD". Campos: inicio, defensa, fin (todos opcionales)
+
+- autor: "Ing. Christian Alejandro del Valle"
+  titulo: "Convertidores Electrónicos de Alta Densidad de Potencia Tolerantes a Fallas"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán Gustavo Oggier"]
+  codirectores: ["Dr. Ing. Jonathan Emmanuel Ochoa Sosa"]
+  inicio: "2025-04"
+- autor: "Ing. Javier Oscar Vitti"
+  titulo: "Convertidores electrónicos y estrategias de control para mejorar la calidad de energía en microrredes eléctricas"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán Gustavo Oggier"]
+  inicio: "2025-04"
+- autor: "Esp. Ing. Astri Edith Andrada Tivani"
+  titulo: "Desarrollo de técnicas avanzadas para la identificación de cargas y mejora de la eficiencia energética en sistemas con accionamientos eléctricos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Cristian H. De Angelo"]
+  codirectores: ["Dr. Ing. Carlos Martin Pezzani"]
+  inicio: "2025-03"
+- autor: "Ing. Eduardo Tomás Paez Lemus"
+  titulo: "Diagnóstico Activo de Fallas en Accionamientos Eléctricos usando inyección de señales exploratorias"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Pablo de la Barrera"]
+  codirectores: ["Dr. Ing. Guillermo Bossio"]
+  inicio: "2024-08"
+- autor: "Ing. Ricardo Luis Tritzant Mesa"
+  titulo: "Arquitecturas tolerantes a fallas para sistemas de propulsión de vehículos eléctricos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Facundo Aguilera"]
+  codirectores: ["Dr. Ing. Pablo de la Barrera"]
+  inicio: "2024-08"
+- autor: "Ing. Daylen Milian Pérez"
+  titulo: "Sistemas de Gestión de Energía para microrredes eléctricas inteligentes"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán Gustavo Oggier"]
+  codirectores: ["Dr. Ing. Facundo Aguilera"]
+  inicio: "2023-04"
+- autor: "Ing. Liván Hernández Pardo"
+  titulo: "Sistemas de supervisión y control tolerantes a fallas para microrredes eléctricas inteligentes"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán Gustavo Oggier"]
+  codirectores: ["Dr. Ing. Facundo Aguilera"]
+  inicio: "2023-04"
+- autor: "Ing. Frank Martínez Batista"
+  titulo: "Sistemas de control y gestión de energía inteligente para integración de vehículos eléctricos en microrredes eléctricas"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán Gustavo Oggier", "Dr. Ing. Facundo Aguilera"]
+  inicio: "2023-04"
+- autor: "Ing. Pedro Andrés Pico Benitez"
+  titulo: "Control avanzado de accionamientos para tracción eléctrica"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Cristian H. De Angelo"]
+  codirectores: ["Diego A. Aligia"]
+  inicio: "2022-05"
+- autor: "Ing. Sofía Lara Antonelli"
+  titulo: "Medición en línea del rendimiento de sistemas accionados con motores eléctricos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Pablo D. Donolo"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2021-04"
+- autor: "Ing. Oscar Danilo Montoya Giraldo"
+  titulo: "Análisis, operación y control de convertidores para la integración de recursos energéticos distribuidos en redes eléctricas aisladas"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Federico M. Serra"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2020-05"
+- autor: "Ing. Agustín Gabriel Bucciarelli"
+  titulo: "Desarrollo de sistemas de movilidad eléctrica integrando eficiencia energética y energías renovables"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Cristian H. De Angelo"]
+  codirectores: ["Luis I. Silva"]
+  inicio: "2020-04"
+- autor: "Ing. Fernando Mezzano"
+  titulo: "Control de convertidores de potencia para sistemas de almacenamiento en microrredes"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Federico M. Serra"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2020-04"
+- autor: "Ing. Lucas Luciano Martín Fernández"
+  titulo: "Cargadores de Baterías inteligentes para Vehículos Eléctricos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Federico M. Serra"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2016-04"
+- autor: "Ing. Guillermo Luciano Magaldi"
+  titulo: "Sistemas híbridos para carga de baterías en vehículos eléctricos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Federico M. Serra"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2016-04"
+- autor: "Ing. Eduardo Gastón Amaya"
+  titulo: "Gerenciamiento de Energía en Vehículos Eléctricos e Híbridos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. H. Chiacchiarini", "Dr. Ing. C. De Angelo"]
+  inicio: "2014-04"
+- autor: "Ing. Andrés Miguel Airabella"
+  titulo: "Convertidores CC-CC tolerantes a fallas para aplicaciones en sistemas eléctricos híbridos"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Germán G. Oggier", "Dr. Ing. Guillermo O. García"]
+  inicio: "2012-12"
+- autor: "Mg. Ing. Ariel Matías Castellino"
+  titulo: "Diagnóstico de Faltas en Rodamientos de Motores Eléctricos de Inducción"
+  nivel: doctorado
+  estado: ejecucion
+  directores: ["Dr. Ing. Cristian Hernán De Angelo"]
+  codirectores: ["Dr. Ing. Guillermo O. García"]
+  inicio: "2012-04"
+- autor: "Ing. Daniel Oscar Garrido"
+  titulo: "Transformador de Estado Sólido: Etapa de Aislación en Media Frecuencia"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán Gustavo Oggier"]
+  codirectores: ["Dr. Ing. Jonathan Emmanuel Bosso"]
+  inicio: "2018-07"
+  defensa: "2024-07-12"
+- autor: "Ing. Francisco Daniel Esteban"
+  titulo: "Control de convertidores de potencia con puentes duales activos para microrredes de corriente continua"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Federico Serra", "Dr. Ing. Cristian De Angelo"]
+  inicio: "2018-04"
+  defensa: "2023-06-07"
+- autor: "Jonathan E. Ochoa Sosa"
+  titulo: "Convertidores con puentes duales activos trifásicos: detección, diagnóstico y tolerancia a fallas en semiconductores de potencia"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán G. Oggier", "Dr. Ing. Rubén O. Nuñez"]
+  inicio: "2017-04"
+  fin: "2022-07"
+- autor: "Ing. Marcial Otero"
+  titulo: "Diagnóstico de Fallas en Máquinas Eléctricas Rotativas usando Inyección de Señales"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Pablo M. de la Barrera", "Dr. Ing. Guillermo R. Bossio"]
+  inicio: "2016-04"
+  defensa: "2022-08-12"
+- autor: "Luis E. Venghi"
+  titulo: "Accionamientos eléctricos tolerantes a fallas para vehículos de tracción eléctrica"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Pablo M. de la Barrera"]
+  codirectores: ["Dr. Ing. Facundo Aguilera"]
+  inicio: "2016-04"
+  fin: "2022-07"
+- autor: "Marcelo Llomplat"
+  titulo: "Estrategias de modulación y control para transformador de estado sólido CC-CA"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo O. García"]
+  inicio: "2016-04"
+  fin: "2021-03"
+- autor: "Ing. Elias Oggier"
+  titulo: "Control de Inversores Trifásicos de Cuatro Piernas para alimentar cargas No Lineales y Desequilibradas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo O. García"]
+  inicio: "2016-04"
+  fin: "2021-03"
+- autor: "Ing. Juan Astrada"
+  titulo: "Estrategias de Control sin Comunicación para el Paralelismo de Inversores"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian De Angelo"]
+  inicio: "2015-04"
+  fin: "2020-05"
+- autor: "Ing. Eduardo Maximiliano Asensio"
+  titulo: "Sistema de Almacenamiento de Energía en Vehículos Eléctricos Combinando Baterías y Ultracapacitores"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo Magallán", "Dr. Ing. Cristian de Angelo"]
+  inicio: "2013-04-01"
+  defensa: "2019-03-22"
+- autor: "Ing. Guillermo Noel González"
+  titulo: "Diagnóstico de Fallas en Sistemas de Generación Basados en GIRB"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian de Angelo", "Dr. Ing. Daniel Forchetti"]
+  inicio: "2012-04-01"
+  defensa: "2018-03-28"
+- autor: "Ing. Manuel Armando Mazzoletti"
+  titulo: "Detección de Faltas en Bobinados de Máquinas Eléctricas Rotativas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo R. Bossio", "Dr. Ing. Cristian Hernán De Angelo"]
+  inicio: "2012-04-01"
+  defensa: "2017-03-21"
+- autor: "Ing. Diego A. Aligia"
+  titulo: "Estimación y control de tracción en vehículos eléctricos e híbridos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian H. De Angelo", "Dr. Ing. Guillermo Magallan"]
+  inicio: "2012-04-01"
+  defensa: "2017-03-23"
+- autor: "Ing. Roberto Esteban Carballo"
+  titulo: "Estrategias de control para la conexión en paralelo de inversores en UPS"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán Gustavo Oggier", "Dr. Ing. Fernando Botterón"]
+  inicio: "2012-04-01"
+  defensa: "2017-03-22"
+- autor: "Ing. Aldo Javier Benitez"
+  titulo: "Convertidor paralelo para la Excitación de Generadores de Inducción y Compensación de Cargas no Lineales Desbalanceadas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Pablo M. de la Barrera", "Dr. Ing. Guillermo O. García"]
+  inicio: "2012-04"
+  defensa: "2017-03-21"
+- autor: "Ing. Jonathan Emmanuel Bosso"
+  titulo: "Transformador de estado sólido CC-CA, trifásico, de una sola etapa, bidireccional, para interconectar una red de CC con una red de CA"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán G. Oggier", "Dr. Ing. Guillermo O. García"]
+  inicio: "2012-04-01"
+  defensa: "2017-03-22"
+- autor: "Ing. Rubén Orlando Núñez"
+  titulo: "Análisis y Diseño de Convertidores CC-CC Bidireccionales Trifásicos Aislados de Alta Densidad de Potencia"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán Gustavo Oggier", "Dr. Ing. Fernando Botterón"]
+  inicio: "2012-04-01"
+  defensa: "2017-03-22"
+- autor: "Ing. Laureano E. Piris Botalla"
+  titulo: "Minimización de pérdidas en los semiconductores de convertidores cc-cc bidireccionales de tres puertos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Germán G. Oggier"]
+  codirectores: ["Dr. Ing. Guillermo O. García"]
+  inicio: "2010-04"
+  defensa: "2015-03-27"
+- autor: "Ing. Facundo Aguilera"
+  titulo: "Tolerancia a fallas en sensores de accionamientos eléctricos para tracción de vehículos terrestres"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Pablo M. de la Barrera"]
+  codirectores: ["Dr. Ing. Cristian H. De Angelo"]
+  inicio: "2011-12"
+  defensa: "2015-03-27"
+- autor: "Mg. Ing. Pablo D. Donolo"
+  titulo: "Efectos de la Calidad de Energía Sobre los Motores de Inducción"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Guillermo R. Bossio"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2009-06-01"
+  defensa: "2014-03-25"
+- autor: "Mg. Laura V. Pérez"
+  titulo: "Control Supervisor Óptimo de Vehículos Eléctricos Híbridos en Tiempo Real"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Ph.D. Víctor L. Pereyra"]
+  otros:
+    - {rol: consejero, nombre: "Cristian H. De Angelo"}
+  inicio: "2011-11"
+  defensa: "2013-09-12"
+- autor: "Ing. Carlos Martín Pezzani"
+  titulo: "Diagnóstico de Fallas en el Rotor de los Motores de Inducción"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Guillermo R. Bossio"]
+  codirectores: ["Cristian H. De Angelo"]
+  inicio: "2007-04-01"
+  defensa: "2013-05-06"
+- autor: "Ing. Guillermo Ricardo Catuogno"
+  titulo: "Control del Flujo de Energía en Generadores de Imanes Permanentes con FEM Arbitraria"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo O. García"]
+  codirectores: ["Dr. Ing. Daniel G. Forchetti"]
+  inicio: "2008-04-01"
+  defensa: "2013-03-26"
+- autor: "Ing. Federico Serra"
+  titulo: "Control de Convertidores Trifásicos de Frente Activo: Aplicación a Sistemas de Generación Eólica"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian H. De Angelo"]
+  codirectores: ["Dr. Ing. Daniel G. Forchetti"]
+  inicio: "2008-04-01"
+  defensa: "2013-03-25"
+- autor: "Ing. Cristian Roberto Ruschetti"
+  titulo: "Diseño de Generadores Sincrónicos de Imanes Permanentes de Velocidad Variable para Turbinas Eólicas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo O. García"]
+  codirectores: ["Dr. Ing. Guillermo R. Bossio"]
+  inicio: "2007-04-01"
+  defensa: "2012-04-25"
+- autor: "Mg. Ing. Luis Ignacio Silva"
+  titulo: "Modelado y Simulación de Accionamientos Eléctricos Usados en Vehículos Eléctricos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian H. De Angelo"]
+  codirectores: ["Dr. Guillermo O. García"]
+  inicio: "2007-10"
+  defensa: "2012-03-26"
+- autor: "Mg. Ing. José Maria Bossio"
+  titulo: "Diagnóstico de Perturbaciones Mecánicas en Accionamientos Eléctricos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Jorge Alberto Solsona"]
+  otros:
+    - {rol: director_asistente, nombre: "Dr. Cristian H. De Angelo"}
+  institucion: uns
+  inicio: "2006-05"
+  defensa: "2012-03-27"
+- autor: "Ing. Daniel G. Forchetti"
+  titulo: "Control de Máquina de Inducción con Rotor Bobinado en Sistemas de Generación Autónomos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dra. María Inés Valla"]
+  codirectores: ["Dr. Guillermo O. García"]
+  institucion: unlp
+  inicio: "1999-12-03"
+  defensa: "2010-11-25"
+- autor: "Mg. Ing. Guillermo Magallán"
+  titulo: "Control del Comportamiento Dinámico de Vehículos Eléctricos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Cristian H. De Angelo"]
+  codirectores: ["Guillermo O. García"]
+  inicio: "2008-12-27"
+  defensa: "2010-06-11"
+- autor: "Mg. Ing. Germán Gustavo Oggier"
+  titulo: "Control para minimizar las pérdidas en convertidores cc-cc con puentes duales activos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Guillermo O. García", "Alejandro R. Oliva"]
+  institucion: uns
+  inicio: "2005-05-10"
+  defensa: "2009-05-13"
+- autor: "Mg. Ing. Pablo Martín de la Barrera"
+  titulo: "Pérdidas en el núcleo de motores de inducción: Aplicaciones al control y al diagnóstico de fallas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Jorge A. Solsona", "Guillermo O. García"]
+  institucion: uns
+  inicio: "2005-05-10"
+  defensa: "2009-05-11"
+- autor: "Msc. Ing. Maximiliano Osvaldo Sonnaillon"
+  titulo: "Procesamiento Digital de Señales en Amplificadores Lock-In"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Fabián J. Bonetto"]
+  codirectores: ["Dr. Guillermo O. García"]
+  institucion: balseiro
+  inicio: "2002-07"
+  defensa: "2007-03-23"
+- autor: "Ing. Guillermo Bossio"
+  titulo: "Modelado de las irregularidades del motor de inducción: Aplicaciones en la estimación de posición y el diagnóstico de fallas"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dra. María Inés Valla"]
+  codirectores: ["Dr. Guillermo García"]
+  otros:
+    - {rol: subdirector, nombre: "Dr. Jorge Solsona"}
+  institucion: unlp
+  inicio: "1999-12-03"
+  defensa: "2004-03-25"
+- autor: "Ing. Cristian Hernán De Angelo"
+  titulo: "Control para máquinas de CA de imanes permanentes con FEM arbitraria, sin sensores mecánicos"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dra. María Inés Valla"]
+  codirectores: ["Dr. Guillermo García"]
+  otros:
+    - {rol: subdirector, nombre: "Dr. Jorge Solsona"}
+  institucion: unlp
+  inicio: "1999-12-03"
+  defensa: "2004-03-24"
+- autor: "MSc. Ing. Roberto Leidhold"
+  titulo: "Control eficiente de micro centrales eólicas usando generadores de inducción"
+  nivel: doctorado
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo O. García (UNRC)"]
+  codirectores: ["Dra. María Inés Valla (UNLP)"]
+  institucion: unlp
+  inicio: "2000-07-01"
+  defensa: "2003-03-20"
+- autor: "Guillermo L. Magaldi"
+  titulo: "Estación de carga de baterías para vehículos eléctricos usando energía solar"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Federico Serra"]
+  codirectores: ["Dr. Ing. Luis Silva", "Dr. Ing. Cristian De Angelo"]
+  defensa: "2023-03-13"
+- autor: "Marcelo H. Poncio"
+  titulo: "Modelado de la máquina de inducción considerando entrehierro no uniforme"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Pablo M. de la Barrera"]
+  codirectores: ["Dr. Ing. Guillermo R. Bossio"]
+  defensa: "2019-04-24"
+- autor: "Ing. Cristian Ariel Falco"
+  titulo: "Implementación de un convertidor CC-CC para estudio de fallas en semiconductores"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Germán G. Oggier"]
+  codirectores: ["Dr. Ing. Guillermo O. García"]
+  defensa: "2016-05-04"
+- autor: "Ing. Marcelo Roberto Curti"
+  titulo: "Desarrollo e Implementación de un Sistema Eólico para Bombeo de Agua"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Daniel G. Forchetti"]
+  codirectores: ["Dr. Ing. Guillermo O. García"]
+  defensa: "2013-08-09"
+- autor: "Ing. Ariel Castellino"
+  titulo: "Diagnóstico de fallas en los rodamientos de los motores eléctricos a través de la medición de variables eléctricas"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian Hernán De Angelo"]
+  defensa: "2013-06-26"
+- autor: "Ing. Pablo Donolo"
+  titulo: "Efectos de los problemas de calidad de energía en el desempeño del motor de inducción"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Guillermo Rubén Bossio"]
+  defensa: "2013-03-26"
+- autor: "Ing. José María Bossio"
+  titulo: "Diagnóstico y compensación de perturbaciones mecánicas en accionamientos eléctricos"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian Hernán De Angelo"]
+  codirectores: ["Dr. Ing. Guillermo O. García"]
+  defensa: "2010-10"
+- autor: "Ing. Santiago Giaccone"
+  titulo: "Estrategias de Diagnóstico de Fallas en Accionamientos Eléctricos"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Guillermo Bossio"]
+  codirectores: ["Dr. Guillermo O. García"]
+  defensa: "2010-08-20"
+- autor: "Ing. Guillermo A. Magallán"
+  titulo: "Control de Tracción para un Vehículo Eléctrico Urbano"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Cristian H. De Angelo"]
+  codirectores: ["Mg. Guillermo Bisheimer"]
+  defensa: "2009-03-29"
+- autor: "Lic. Laura V. Pérez"
+  titulo: "Optimización del Flujo de Energía en Sistemas Generador-Almacenador-Consumidor"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Guillermo Bossio"]
+  codirectores: ["Mg. Diego Moitre"]
+  otros:
+    - {rol: asesor, nombre: "Dr. Guillermo O. García"}
+  defensa: "2008-08-28"
+- autor: "Ing. Pablo Martín de la Barrera"
+  titulo: "Efecto de las Pérdidas en el Hierro Sobre el Control del Motor de Inducción"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Guillermo Bossio"]
+  codirectores: ["Dr. Guillermo O. García"]
+  defensa: "2006-12-19"
+- autor: "Ing. Guillermo Bisheimer"
+  titulo: "Accionamientos eléctricos de bajo costo y alto desempeño con máquinas de imanes permanentes"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian Hernán De Angelo"]
+  codirectores: ["Dr. Ing. Jorge A. Solsona"]
+  defensa: "2006-09-22"
+- autor: "Ing. Germán Gustavo Oggier"
+  titulo: "Análisis y Desarrollo de un Convertidor CC-CC de Potencia con Puentes Duales Activos"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Guillermo O. García"]
+  codirectores: ["Dr. Roberto Leidhold"]
+  defensa: "2006-08-31"
+- autor: "Ing. Maximiliano Osvaldo Sonnaillon"
+  titulo: "Sistema de tracción de un vehículo eléctrico"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Dr. Ing. Cristian Hernán De Angelo"]
+  codirectores: ["Dr. Ing. Jorge A. Solsona"]
+  defensa: "2005-09-20"
+- autor: "Ing. Roberto Leidhold"
+  titulo: "Control Vectorial para Generadores de Inducción"
+  nivel: maestria
+  estado: finalizada
+  directores: ["Guillermo O. García"]
+  institucion: magister_cce
+  inicio: "1996-05"
+  defensa: "2000-07-07"

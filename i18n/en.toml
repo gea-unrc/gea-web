@@ -32,3 +32,53 @@ other = "Applied Electronics Group · Faculty of Engineering · National Univers
 other = "Jan 2, 2006"
 [lang_label]
 other = "Language"
+[and]
+other = "and"
+[dir]
+one = "Supervisor"
+other = "Supervisors"
+[codir]
+one = "Co-supervisor"
+other = "Co-supervisors"
+[rol_subdirector]
+other = "Sub-supervisor"
+[rol_director_asistente]
+other = "Assistant supervisor"
+[rol_asesor]
+other = "Advisor"
+[rol_consejero]
+other = "Counsellor"
+[inst_unlp]
+other = "LEICI, National University of La Plata (Doctorate in Engineering)"
+[inst_uns]
+other = "Department of Electrical Engineering and Computers, National University of the South (Doctorate in Systems Control)"
+[inst_balseiro]
+other = "Balseiro Institute, National University of Cuyo (Doctorate in Engineering Sciences)"
+[inst_magister_cce]
+other = "Master in Engineering, specialisation in “Energy Control and Conversion”"
+[since]
+other = "Since"
+[start]
+other = "Start"
+[defense]
+other = "Defence"
+[end]
+other = "Completed"
+[month_fmt]
+other = "Jan 2006"
+[h_doc_ej]
+other = "Ongoing doctoral theses"
+[h_doc_fin]
+other = "Completed doctoral theses"
+[h_mae_ej]
+other = "Ongoing master's theses"
+[h_mae_fin]
+other = "Completed master's theses"
+[note_doc_ej]
+other = "Doctorate in Engineering Sciences, National University of Río Cuarto."
+[note_doc_fin]
+other = "Unless otherwise stated, Doctorate in Engineering Sciences, Faculty of Engineering, UNRC (approved by Resolution 513/08 of the National Ministry of Education)."
+[note_mae_ej]
+other = "Master in Engineering Sciences, Electrical Engineering, Faculty of Engineering, UNRC."
+[note_mae_fin]
+other = "Master in Engineering Sciences, Electrical Engineering, Faculty of Engineering, UNRC (accredited by CONEAU Resolution 869/99)."
