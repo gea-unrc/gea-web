@@ -1,12 +1,13 @@
 ---
 translationKey: aguilera-facundo
 title: "Facundo Aguilera"
-rol: investigadores
-cargo: "Dr. Ing. ·  Investigador Asistente CONICET · Profesor UNRC"
-weight: 2
+rol: investigadores   # direccion | investigadores | docentes | posgrado | grado | egresados | externos
+cargo: "Dr. Ing. · Investigador Asistente CONICET · Profesor UNRC"
+weight: 10
 email: "faguilera@ing.unrc.edu.ar"
 foto: "/img/integrantes/aguilera-facundo.jpg"
-intereses: ["electromovilidad","electrónica digital", "sistemas embebidos", "tolerancia a fallas", "microrredes eléctricas"]
+intereses: ["electromovilidad", "electrónica digital", "sistemas embebidos", "tolerancia a fallas", "microrredes eléctricas"]
+# tipo: conicet | researchgate | linkedin | orcid | scholar | github | cv | web   (nombre = texto al pasar el mouse)
 links:
   - tipo: conicet
     nombre: "Perfil CONICET"
@@ -15,13 +16,14 @@ links:
     nombre: "ResearchGate"
     url: "https://www.researchgate.net/profile/Facundo-Aguilera"
   - tipo: linkedin
-    nombre: "Perfil LinkedIn"
+    nombre: "LinkedIn"
     url: "https://www.linkedin.com/in/facundoaguilera/"
   - tipo: cv
     nombre: "CV"
     url: "https://gea.ing.unrc.edu.ar/faguilera/uploads/cv_faguilera.pdf"
 ---
 Nació en San Luis, Provincia de San Luis, Argentina (1985)
+
 Recibió el título de Técnico Electrónico (2002) en el Colegio N° 4 Fray Luis Beltrán y el título Ingeniero Electrónico con Orientación en Sistemas Digitales (2009) en la Universidad Nacional de San Luis (UNSL).
 
 Actualmente realiza el Doctorado en Ciencias de la Ingeniería en la Facultad de Ingeniería, UNRC. Es Becario del CONICET y Auxiliar de Segunda de la Facultad de Ciencias Físico Matemáticas y Naturales de la UNSL. Es miembro del GEA desde el 2010.
