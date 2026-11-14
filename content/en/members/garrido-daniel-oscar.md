@@ -1,7 +1,7 @@
 ---
 translationKey: garrido-daniel-oscar
 title: "Daniel Oscar Garrido"
-rol: docentes   # direccion | investigadores | docentes | posgrado | grado | egresados | externos
+rol: investigadores   # direccion | investigadores | docentes | posgrado | grado | egresados | externos
 cargo: "Dr. Eng. · CONICET Postdoctoral Fellow · UNRC Teaching Staff"
 weight: 10
 email: "daniel.oscar.garrido@ing.unrc.edu.ar"
